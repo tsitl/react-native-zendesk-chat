@@ -93,6 +93,8 @@ declare module "react-native-zendesk-chat" {
 		 */
 		setVisitorInfo: (options: VisitorInfoOptions) => void;
 
+		setPrimaryColor: (color: string) => void;
+
 		/**
 		 * Configure the token to start receiving Push Notifications
 		 */
